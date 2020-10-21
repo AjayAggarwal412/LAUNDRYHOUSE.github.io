@@ -1,0 +1,209 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="Laundry-img_files\hanger2.ico">
+        <script src="https://kit.fontawesome.com/cd46bd4b8e.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous"
+        >
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="order-style.css">
+        <script src="top.js"></script>
+        <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+        <script src="validation.js"></script>
+    </head>
+    <body>
+        <!-- title section -->
+        <div class="title">
+            <div class="location">
+                <i class="fas fa-map-marker-alt icon-color" style="margin-bottom: 10px;"></i>
+                <br>
+                <address style="font-size: 18px;">
+                    Serving At
+                    <br>
+                    South Delhi
+                </address>
+            </div>
+            <div class="heading">
+                <h1>THE LAUNDRY HOUSE</h1>
+            </div>
+            <div class="contact">
+                <i class="fas fa-phone-alt icon-color"></i>
+                <br>
+                <address style="font-size: 29px; margin-bottom: 0; font-weight:500;">+91 9560887909</address>
+                Mon-Sun 10:00 am to 8:00 pm
+            </div>
+        </div>
+        <!-- navbar section -->
+        <div class="custom_navbar sticky-top">
+            <ul>
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="service.html">Services</a>
+                </li>
+                <li>
+                    <a href="price.html">Prices</a>
+                </li>
+                <li>
+                    <a href="faq.html">FAQ</a>
+                </li>
+                <li>
+                    <a href="order.html">Order Online</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contacts</a>
+                </li>
+            </ul>
+        </div>
+        <div class="_form">
+            <h1 class="order">ORDER FORM</h1>
+            <div class="alert">
+                Your pickup has been scheduled. We will get back to you shortly.
+                ThankYou
+            </div>
+            <form id="contactForm" onsubmit="return validateForm()">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <label for="fname">Name</label>
+                            <br>
+                            <input
+                                type="text"
+                                id="fname"
+                                name="fname"
+                                required
+                            >
+                            <br>
+                            <br>
+                        </div>
+                        <div class="col">
+                            <label for="phone">Phone</label>
+                            <br>
+                            <input
+                                type="text"
+                                id="phone"
+                                name="phone"
+                                pattern="[1-9]{1}[0-9]{9}"
+                                title="Enter 10 digit mobile number"
+                                required
+                            >
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="date">Pickup date</label>
+                            <br>
+                            <input
+                                type="date"
+                                id="date"
+                                name="date"
+                                date-format="DD MMMM YYYY"
+                                required
+                            >
+                            <br>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col">
+                            <label for="Email">E-mail</label>
+                            <br>
+                            <input
+                                type="email"
+                                id="Email"
+                                name="Email"
+                                required
+                            >
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="address">Address / Special Instructions</label>
+                            <br>
+                            <textarea
+                                type="text"
+                                id="address"
+                                name="address"
+                                rows="4"
+                                cols="77"
+                                required
+                            ></textarea>
+                        </div>
+                    </div>
+                    <br>
+                    <button class="price-btn" type="submit">SEND MESSAGE</button>
+                </div>
+            </form>
+        </div>
+        <!-- footer section -->
+        <div class="container-fluid footer">
+            <div class="row">
+                <div class="col">
+                    <a href="#">
+                        <img src="Laundry-img_files\logo.png">
+                    </a>
+                </div>
+                <div class="col-5">
+                    <h2>GET STARTED TODAY! &nbsp;  9560887909</h2>
+                </div>
+                <div class="col  w3-xxlarge _icon">
+                    <a class="icon" href="#">
+                        <i class="fab fa-twitter twit"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="fab fa-facebook-f face"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="fab fa-instagram insta"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row footer-info">
+                <div class="col rights">
+                    © 2012 THE LAUNDRY HOUSE.
+                    <br>
+                    All Rights Reserved.
+                </div>
+                <div class="col mail">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Serving At South Delhi
+                    <br>
+                    <i class="far fa-envelope"></i>
+                    <a href="mailto:info@thelaundryhouse.in">info@thelaundryhouse.in</a>
+                </div>
+                <div class="col clock">
+                    <i class="far fa-clock"></i>
+                    Mon-Sun: 10:00am-8:00pm
+                </div>
+                <div class="col terms">
+                    <a href="terms.html">Terms and Conditions</a>
+                    <br>
+                    <a href="privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+        <button
+            class="btn btn-primary scroll-top color"
+            data-scroll="up"
+            type="button"
+            style="background-color: #5ebb60; border-color: white; border-radius: 50%;"
+        >
+            <i class="fa fa-chevron-up"></i>
+        </button>
+        <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase.js"></script>
+        <script src="main.js"></script>
+        <script src="onload.js"></script>
+    </body>
+</html>

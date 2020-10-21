@@ -1,0 +1,102 @@
+.location_logo {
+    margin-left: 5em;
+    margin-right: 1em;
+}
+
+.form {
+    padding: 7em;
+
+}
+
+.new {
+    margin-bottom: 1em;
+}
+
+.name-div {
+    margin-top: -1em;
+}
+
+._name {
+    margin-left: -7em;
+}
+
+.name-col {
+    margin-left: -1em;
+
+}
+
+.mob-col {
+    margin-left: 3em;
+}
+
+.name,
+.mobile {
+    height: 3em;
+    width: 120%;
+    margin-top: 10px;
+}
+
+
+._address {
+    margin-top: 10px;
+}
+
+._email {
+    height: 3em;
+    margin-bottom: 1.5em;
+    margin-top: 10px;
+    width: 100%;
+}
+
+input,
+textarea {
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #5ebb60;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+.message-btn {
+
+    background: #5ebb60;
+    background-image: -webkit-linear-gradient(top, #5ebb60, #5ebb60);
+    background-image: -moz-linear-gradient(top, #5ebb60, #5ebb60);
+    background-image: -ms-linear-gradient(top, #5ebb60, #5ebb60);
+    background-image: -o-linear-gradient(top, #5ebb60, #5ebb60);
+    background-image: linear-gradient(to bottom, #5ebb60, #5ebb60);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-left: -4em;
+    margin-top: 2em;
+}
+
+.message-btn:hover {
+    background: black;
+    background-image: -webkit-linear-gradient(top, black, black);
+    background-image: -moz-linear-gradient(top, black, black);
+    background-image: -ms-linear-gradient(top, black, black);
+    background-image: -o-linear-gradient(top, black, black);
+    background-image: linear-gradient(to bottom, black, black);
+    text-decoration: none;
+}
+._alert {
+    text-align: center;
+    padding: 10px;
+    background: #5ebb60;
+    color: #fff;
+    font-size: larger;
+    margin-bottom: 3em;
+    margin-top: -5em;
+    display: none;
+}

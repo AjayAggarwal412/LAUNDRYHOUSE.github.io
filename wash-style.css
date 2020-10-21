@@ -1,0 +1,60 @@
+.wash_title h1 {
+    text-align: center;
+    margin-top: 6em;
+    margin-bottom: 1em;
+}
+
+.wash-img {
+    margin-left: 20%;
+}
+
+.wash-para p {
+    padding-left: 20%;
+    padding-right: 18%;
+    padding-top: 2em;
+}
+
+._tick {
+    list-style: none;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 5%;
+}
+
+._tick li {
+    margin-bottom: 10px;
+}
+
+._tick li:before {
+    content: '✓';
+    color: #5ebb60;
+    margin-right: 10px;
+}
+.new{
+    margin-bottom: 3em;
+}
+.wash_btn{
+    margin-left: 38%;
+    margin-bottom: 3em;
+}
+.dry_choose{
+    margin-left: 18%;
+    margin-right: 18%;
+}
+.dry_choose h1{
+    text-align: center;
+}
+/* scroll to top button */
+.scroll-top {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 15px;
+    left: 93%;
+    display: none;
+}
+
+.scroll-top i {
+    display: inline-block;
+    color: #FFFFFF;
+}

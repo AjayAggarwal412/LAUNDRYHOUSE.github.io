@@ -1,0 +1,23 @@
+._terms h1 {
+    text-align: center;
+    margin-top: 6em;
+    margin-bottom: 1.5em;
+    font-weight: 600;
+}
+
+.agree {
+    margin-top: 4em;
+}
+
+._terms h3 {
+    font-weight: 500;
+}
+
+._terms {
+    padding-left: 7em;
+    padding-right: 7em;
+}
+
+._terms p {
+    margin-bottom: 2em;
+}

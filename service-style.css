@@ -1,0 +1,129 @@
+.service_title {
+    text-align: center;
+    margin-top: 6.5em;
+    margin-bottom: 1.5em;
+}
+
+.para {
+    text-align: center;
+    padding: 4em;
+    padding-top: 2em;
+    font-size: 1.1em;
+}
+
+.premium {
+    text-align: center;
+    background-color: #46d8cc;
+    padding: 3em;
+    margin-bottom: 3em;
+}
+
+.premium:hover {
+    background-color: #5ebb60;
+    color: white;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+.premium h1 {
+    font-weight: 700;
+}
+
+.feature_title {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #5ebb60;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+._features {
+    padding: 8em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+._features h3 {
+    padding: 1em;
+    padding-left: 0;
+}
+
+.bag-padding {
+    margin-top: 4em;
+}
+
+.service_btn {
+    margin-left: 39%;
+    margin-bottom: 7em;
+}
+
+/* caraousel */
+.card-img-top {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-left: 5em;
+    margin-top: -4em;
+    margin-bottom: 2em;
+}
+
+.card-img-top:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.card-deck {
+    padding: 7em;
+    height: 80%;
+    width: 100%;
+    margin-left: -5em;
+}
+
+.card:hover {
+    border-color: #5ebb60;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+.carousel-inner {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    margin-right: 4em;
+    margin-top: -5em;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    margin-top: -5em;
+    margin-left: 3em;
+}
+
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-weight: 600;
+    margin-bottom: 1.5em;
+}
+
+.card-title:hover {
+    color: #5ebb60;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,25 @@
+.sofa {
+    padding-left: 17%;
+    padding-right: 17%;
+}
+
+.sofa-img {
+    display: block;
+    margin-left: 9em;
+    margin-bottom: 4em;
+}
+.sofa-acc{
+    padding-left: 8em;
+    padding-right: 8em;
+}
+.col{
+    padding-left: 0;
+}
+._clean{
+    text-align: center;
+    margin-top: 3em;
+}
+
+.order{
+    margin-left: 1em;
+}

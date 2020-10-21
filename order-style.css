@@ -1,0 +1,58 @@
+._form {
+    padding: 5%;
+    border: 1px solid gray;
+    margin-right: 15%;
+    margin-top: 20%;
+    margin-left: 15%;
+    margin-bottom: 5em;
+}
+
+.order {
+    text-align: center;
+    margin-top: -0.5em;
+    margin-bottom: 2em;
+    font-weight: 600;
+}
+
+#fname,
+#phone {
+    width: 80%;
+    height: 3em;
+}
+
+#date {
+    width: 39%;
+    height: 3em;
+}
+
+#Email {
+    height: 3em;
+    width: 91%;
+}
+
+.price-btn {
+    margin-left: 0;
+}
+
+input,
+textarea {
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #5ebb60;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+.alert {
+    text-align: center;
+    padding: 10px;
+    background: #5ebb60;
+    color: #fff;
+    font-size: large;
+    margin-bottom: 15px;
+    display: none;
+}

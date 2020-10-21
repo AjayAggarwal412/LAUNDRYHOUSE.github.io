@@ -1,0 +1,173 @@
+<html>
+    <head>
+        <title>FAQ</title>
+        <link rel="icon" href="Laundry-img_files\hanger2.ico">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/cd46bd4b8e.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous"
+        >
+        <link rel="stylesheet" href="faq-style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="top.js"></script>
+        <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+    </head>
+    <body>
+        <!-- title section -->
+        <div class="title">
+            <div class="location">
+                <i class="fas fa-map-marker-alt icon-color" style="margin-bottom: 10px;"></i>
+                <br>
+                <address style="font-size: 18px;">
+                    Serving At
+                    <br>
+                    South Delhi
+                </address>
+            </div>
+            <div class="heading">
+                <h1>THE LAUNDRY HOUSE</h1>
+            </div>
+            <div class="contact">
+                <i class="fas fa-phone-alt icon-color"></i>
+                <br>
+                <address style="font-size: 29px; margin-bottom: 0; font-weight:500;">+91 9560887909</address>
+                Mon-Sun 10:00 am to 8:00 pm
+            </div>
+        </div>
+        <!-- navbar section -->
+        <div class="custom_navbar sticky-top">
+            <ul>
+                <li>
+                    <a class="active" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="service.html">Services</a>
+                </li>
+                <li>
+                    <a href="price.html">Prices</a>
+                </li>
+                <li>
+                    <a href="faq.html">FAQ</a>
+                </li>
+                <li>
+                    <a href="order.html">Order Online</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contacts</a>
+                </li>
+            </ul>
+        </div>
+        <div class="FAQ">
+            <h1 class="faq_title">FREQUENTLY ASKED QUESTIONS</h1>
+            <hr class="new">
+            <p>We make it simple to do your laundry. Save time, get high quality services while you can focus on the things you love. Let us take care of Dry Cleaning & Laundry requirements.</p>
+            <h3 class="order">Your First Order!</h3>
+        </div>
+        <button class="accord">What should I prepare for the first pickup?</button>
+        <div class="_panel">
+            <p>All you need to do is pack your laundry and keep it ready for us to pick up. Also let us know if you have any special instructions!</p>
+        </div>
+        <button class="accord">How long does cleaning take?</button>
+        <div class="_panel">
+            <p>We aim to pick up your clothes, clean them, and deliver them to you within 48 hours. If you want it even faster, no problem! Get your clothes back within 24 hours.</p>
+        </div>
+        <button class="accord">Which item should be dry cleaned and which should be laundered?</button>
+        <div class="_panel">
+            <p>Delicate items like saree, fancy suits, lehengas, and premium quality fabrics should be dry-cleaned. Other types of casual wear can be laundered. If you aren’t sure of the best approach, refer to the instructions printed on the label or just give us a call and our executive will help you right away.</p>
+        </div>
+        <button class="accord">Can I order by phone or online through websites?</button>
+        <div class="_panel">
+            <p>You can schedule a pick-up either over WhatsApp, on our website, or by giving a call to our helpline.</p>
+        </div>
+        <button class="accord">Where are my clothes cleaned?</button>
+        <div class="_panel">
+            <p>We have our own processing centers equipped with the latest technology and equipment. You can also watch the processing video on our website, which will give you an idea of the entire process.</p>
+        </div>
+        <button class="accord">Are there any fabrics you don't clean?</button>
+        <div class="_panel">
+            <p>Since we are equipped with different types of machines for various fabric, we can clean all types of fabrics except suede leather.</p>
+        </div>
+        <button class="accord">How do you accept payment?</button>
+        <div class="_panel last-panel">
+            <p>We accept payment through cash or UPI. We also accept payment through cards at our store.</p>
+        </div>
+        <script>
+            var acc = document.getElementsByClassName("accord");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("_active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                  panel.style.maxHeight = null;
+                } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+              });
+            }
+        </script>
+        <!-- footer section -->
+        <div class="container-fluid footer">
+            <div class="row">
+                <div class="col">
+                    <a href="#">
+                        <img src="Laundry-img_files\logo.png">
+                    </a>
+                </div>
+                <div class="col-5">
+                    <h2>GET STARTED TODAY! &nbsp;  9560887909</h2>
+                </div>
+                <div class="col  w3-xxlarge _icon">
+                    <a class="icon" href="#">
+                        <i class="fab fa-twitter twit"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="fab fa-facebook-f face"></i>
+                    </a>
+                    <a href="#" class="icon">
+                        <i class="fab fa-instagram insta"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row footer-info">
+                <div class="col rights">
+                    © 2012 THE LAUNDRY HOUSE.
+                    <br>
+                    All Rights Reserved.
+                </div>
+                <div class="col mail">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Serving At South Delhi
+                    <br>
+                    <i class="far fa-envelope"></i>
+                    <a href="mailto:info@thelaundryhouse.in">info@thelaundryhouse.in</a>
+                </div>
+                <div class="col clock">
+                    <i class="far fa-clock"></i>
+                    Mon-Sun: 10:00am-8:00pm
+                </div>
+                <div class="col terms">
+                    <a href="terms.html">Terms and Conditions</a>
+                    <br>
+                    <a href="privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+        <button
+            class="btn btn-primary scroll-top color"
+            data-scroll="up"
+            type="button"
+            style="background-color: #5ebb60; border-color: white; border-radius: 50%;"
+        >
+            <i class="fa fa-chevron-up"></i>
+        </button>
+        <script src="onload.js"></script>
+    </body>
+</html>

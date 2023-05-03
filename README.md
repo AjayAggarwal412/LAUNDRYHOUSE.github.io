@@ -12,7 +12,7 @@ A laundry website designed to provide information about laundry services and pri
 
 ## Demo
 
-Here is the link of the website [https://ajayaggarwal412.github.io/LaundryHouse.github.io](https://ajayaggarwal412.github.io/LaundryHouse.github.io)
+Here is the link of the website [https://ajayaggarwal412.github.io/LaundryHouse.github.io/#](https://ajayaggarwal412.github.io/LaundryHouse.github.io/#)
 
 ## Technologies Used
 
